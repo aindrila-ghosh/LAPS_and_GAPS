@@ -1,0 +1,30 @@
+Metadata-Version: 1.2
+Name: laps-and-gaps
+Version: 1.0.0
+Summary: A package for interpreting structural preservation of dimensionality reduction algorithms
+Home-page: UNKNOWN
+Author: Aindrila Ghosh
+Author-email: aindrila@ualberta.ca
+License: UNKNOWN
+Description: ## <div style="text-align: center"> LAPS and GAPS - Intrepretation of Structural Preservation in Low-dimensional Embeddings</div>
+        
+        <div style="text-align: center"> Aindrila Ghosh$^{1}$, Mona Nashaat$^{1}$, James Miller$^{1}$, Shaikh Quader$^{2}$ </div>
+        
+        <div style="text-align: center"> $^{1}$ University of Alberta, Edmonton, AB, Canada </div>
+        <div style="text-align: center"> $^{2}$ IBM Software Lab, Markham, Toronto, Canada </div>
+        
+        
+        
+        **Despite being commonly used in big-data analytics; the outcome of dimensionality reduction remains a black-box to most of its users. Understanding the quality of a low-dimensional embedding is important as not only it enables trust in the transformed data, but it can also help to select the most appropriate dimensionality reduction algorithm in a given scenario. As existing research primarily focuses on the visual exploration of embeddings, there is still a need for enhancing interpretability of such algorithms. To bridge this gap, we propose two novel interactive explanation techniques for low-dimensional embeddings obtained from any dimensionality reduction algorithm. The first technique LAPS produces a local approximation of the neighborhood structure to generate interpretable explanations on the preserved locality for a single instance. The second method GAPS explains the retained global structure of a high-dimensional dataset in its embedding, by combining non-redundant localapproximations from a coarse discretization of the projection space. We demonstrate the applicability of the proposed techniques using 16 real-life tabular, text, image, and audio datasets. Our extensive experimental evaluation shows the utility of the proposed techniques in interpreting the quality of low-dimensional embeddings, as well as with selecting the most suitable dimensionality reduction algorithm for any given dataset.
+        
+        **Required Python version:** 3.7.1
+        
+        **Installation:** $ pip install -r requirements.txt
+        
+        **To understand how to use this package:** Please refer to examples/LAPS_and_GAPS_Example.ipynb
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
